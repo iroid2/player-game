@@ -8,7 +8,8 @@ body{
     height: 100vh;
 }
 .center{
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .container{
     width: 100%;
@@ -41,6 +42,7 @@ body{
     .player-ground{
         width: 50%;
         height: 85%;
+        position: relative;
         background-color: royalblue;
         .fore-ground{
             width: 100%;
@@ -57,4 +59,21 @@ body{
             }
             
         }
-        .back-ground{ 
+        .back-ground{
+            width: 100%;
+            height: 50%;
+            // position: absolute;
+            .bg{
+                width: 25%;
+                height: 40%;
+                background-color: rgb(230, 114, 114);
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: .2rem;
+            }
+        }
+    }
+    
+}
